@@ -4,6 +4,8 @@ import Header from './components/Header';
 import Profile from './components/Profile';
 import Skill from './components/Skill';
 import Footer from './components/Footer';
+import Contact from './components/Contact';
+
 
 function App(){
 {/* 
@@ -28,6 +30,11 @@ function App(){
         age={20}
         profession="Estudiante de DAW"
       />
+        <Contact
+            email="anna@gmail.com"
+            phone="600 123 456"
+            show={true} // true = se muestra
+        />
 
 
 <h2>Habilidades</h2>
